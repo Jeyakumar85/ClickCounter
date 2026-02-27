@@ -7,7 +7,7 @@ def outer_function(x: int):
 
 
 add_10 = outer_function(10)
-print(add_10(5))
+print(add_10(10))
 
 def square_of(x: int):
     def number(y: int):
@@ -16,4 +16,4 @@ def square_of(x: int):
 
 
 square_of_2 = square_of(2)
-print(square_of_2(3))
+print(square_of_2(6))
